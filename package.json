@@ -1,0 +1,23 @@
+{
+  "name": "scaffoldery",
+  "version": "0.0.0",
+  "description": "A gulp based scaffolding framework inspired by rails",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kennethlynne/scaffoldery.git"
+  },
+  "keywords": [
+    "scaffolding",
+    "generator",
+    "template"
+  ],
+  "author": "Kenneth Lynne <kenneth.lynne@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kennethlynne/scaffoldery/issues"
+  }
+}
