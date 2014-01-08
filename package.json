@@ -22,6 +22,10 @@
   },
   "devDependencies": {
     "gulp-template": "~0.1.0",
-    "gulp": "~3.2.4"
+    "gulp": "~3.2.4",
+    "grunt-bump": "0.0.13",
+    "inquirer": "~0.4.0",
+    "q": "~1.0.0",
+    "gulp-rename": "~0.2.1"
   }
 }
