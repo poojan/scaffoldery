@@ -1,7 +1,7 @@
 scaffoldery
 ===========
 
-Work in progress - A gulpjs based scaffolding framework inspired by rails that allows for easy customization
+Work in progress - A gulpjs based scaffolding framework, and gulp task inspired by rails and yeoman generators.
 
 #Why
 It should be super simple to create templates to automate your own workflow.
