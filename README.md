@@ -9,9 +9,9 @@ It should be super simple to create templates to automate your own workflow.
 #Usage
 - `npm install scaffoldery`
 - `scaffoldery init`
-- create your own templates inside `scaffoldery_templates` or download some existing ones using `scaffoldery install <awesomesauce>`
+- create your own templates inside `scaffoldery_templates`. How?
+- or download some existing ones using `scaffoldery install <awesomesauce>`
 - run `scaffoldery create:<template-name> <optional parameters>`
-- 
 
 #How do I create a template?
 TODO
