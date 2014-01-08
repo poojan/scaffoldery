@@ -19,5 +19,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kennethlynne/scaffoldery/issues"
+  },
+  "devDependencies": {
+    "gulp-template": "~0.1.0",
+    "gulp": "~3.2.4"
   }
 }
