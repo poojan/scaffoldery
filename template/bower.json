@@ -1,0 +1,18 @@
+{
+    "version": "0.0.0",
+    "name": "{{componentName}}",
+    "description": "{{description}}",
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "angular": "~1.2.7"
+    },
+    "devDependencies": {
+        "angular-mocks": "~1.2.7"
+    }
+}
+
