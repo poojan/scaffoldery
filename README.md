@@ -7,7 +7,7 @@ Work in progress - A gulpjs based scaffolding framework, and gulp task inspired 
 It should be super simple to create templates to automate your own workflow.
 
 #Usage
-- `npm install gulp-scaffolde`
+- `npm install gulp-scaffolder`
 - TODO: create your own templates and tasks
 - TODO: or download some existing ones using `scaffoldery install <awesomesauce>`
 - run `scaffoldery create:<template-name> <optional parameters>`
