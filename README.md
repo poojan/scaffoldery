@@ -1,4 +1,4 @@
-scaffoldery
+gulp-scaffolder
 ===========
 
 Work in progress - A gulpjs based scaffolding framework, and gulp task inspired by rails and yeoman generators.
