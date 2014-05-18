@@ -9,8 +9,8 @@ It should be super simple to create templates to automate your own workflow.
 #Usage
 - `npm install gulp-scaffolder`
 - TODO: create your own templates and tasks
-- TODO: or download some existing ones using `scaffoldery install <awesomesauce>`
-- run `scaffoldery create:<template-name> <optional parameters>`
+- TODO: or download some existing ones
+- run `gulp scaffold:<template-name>`
 
 #How do I create a template?
 TODO
