@@ -20,10 +20,14 @@ TODO
 `scaffoldery create <template-name>` will create a new folder within your scaffoldery_templates folder. Within there will be a `prompts.js` file that exports all prompts that should be asked before scaffolding the template
 inside of the templates folder (`scaffoldery_templates/<template-name>/template/`).
 
-#How do I install a template?
+#How do I list all templates?
+`scaffoldery` will list all sub-directories in your `scaffoldery_templates` folder and let you pick one.
+
+# Long term goals:
+## How do I install a template?
 Run `scaffoldery install <template>` where template can be a bower package or a github repository. This will fetch a copy of the template into the `scaffoldery_templates` folder.
 
-#How do I register a template for everyone else to use?
+## How do I register a template for everyone else to use?
 TODO
 Create your template as usual.
 Register the template as a bower package.
