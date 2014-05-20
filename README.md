@@ -1,27 +1,34 @@
-gulp-scaffolder
+scaffoldery
 ===========
 
-Work in progress - A gulpjs based scaffolding framework, and gulp task inspired by rails and yeoman generators.
+Work in progress - A scaffolding framework inspired by rails and yeoman.
 
 #Why
-It should be super simple to create templates to automate your own workflow.
+It should be super simple to create templates to automate your own workflow. You should be able to create project specific cutsomizations.
+
+Simply install it:
+`npm install scaffoldery --save` 
 
 #Usage
-- `npm install gulp-scaffolder`
-- TODO: create your own templates and tasks
-- TODO: or download some existing ones
-- run `gulp scaffold:<template-name>`
+Run `scaffoldery init` to have it create a `scaffoldery_templates` folder (with an example template).
+Create your own templates inside this folder with the folder name being the template name.
+
+Run `scaffoldery generate <template-name>` to have it generate something based on a template.
+
+#How do I install a template?
+Run `scaffoldery install <template>` where template can be a bower package or a github repository. This will fetch a copy of the template into the `scaffoldery_templates` folder.
 
 #How do I create a template?
 TODO
-
-##A typical template can look like this
-TODO
+`scaffoldery create <template-name>` will create a new folder within your scaffoldery_templates folder. Within there will be a `prompts.js` file that exports all prompts that should be asked before scaffolding the template
+inside of the templates folder (`scaffoldery_templates/<template-name>/template/`).
 
 #How do I register a template for everyone else to use?
-Register template as a bower package
 TODO
+Create your template as usual.
+Register the template as a bower package.
 
+========================
 
 The MIT License (MIT)
 
