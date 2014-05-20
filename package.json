@@ -1,7 +1,7 @@
 {
   "name": "scaffoldery",
   "version": "0.0.0",
-  "description": "A gulp based scaffolding framework inspired by rails",
+  "description": "A scaffolding framework inspired by rails and yeoman that allows for per project customization",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
