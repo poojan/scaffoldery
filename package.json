@@ -4,7 +4,7 @@
   "description": "A scaffolding framework inspired by rails and yeoman that allows for per project customization",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -21,11 +21,22 @@
     "url": "https://github.com/kennethlynne/scaffoldery/issues"
   },
   "devDependencies": {
-    "gulp-template": "~0.1.0",
-    "gulp": "~3.2.4",
     "grunt-bump": "0.0.13",
+    "gulp": "^3.6.2",
+    "gulp-mocha": "^0.4.1",
+    "gulp-rename": "~0.2.1",
+    "gulp-spawn-mocha": "^0.1.4",
+    "gulp-template": "~0.1.0",
     "inquirer": "~0.4.0",
+    "mocha": "^1.20.0",
     "q": "~1.0.0",
-    "gulp-rename": "~0.2.1"
+    "should": "^4.0.0"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "commander": "^2.2.0",
+    "event-stream": "^3.1.5",
+    "lodash": "^2.4.1",
+    "win-fork": "^1.1.1"
   }
 }

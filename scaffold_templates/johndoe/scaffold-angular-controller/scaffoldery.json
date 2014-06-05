@@ -1,0 +1,22 @@
+{
+  "package": "johndoe/scaffold-angular-controller",
+  "platform": "angular",
+  "generators": [
+    {
+      "name": "controller",
+      "template": "controller.js",
+      "prompts": [
+        {
+          "message": "Enter module name:",
+          "name": "module",
+          "type": "input"
+        },
+        {
+          "message": "Enter controller name:",
+          "name": "name",
+          "type": "input"
+        }
+      ]
+    }
+  ]
+}
