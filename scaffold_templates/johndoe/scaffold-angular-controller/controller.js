@@ -1,5 +1,5 @@
-angular.module('%module%', [])
-  .controller('%name%', ['$scope', function($scope) {
+angular.module('{{module}}', [])
+  .controller('{{name}}', ['$scope', function($scope) {
     // TODO
   }])
 

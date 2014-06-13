@@ -1,0 +1,12 @@
+{
+  "package": "angular-suite",
+  "platform": "angular",
+  "generators": [
+    {
+      "name": "suite",
+      "templatesDirectory": "templates",
+      "promptsFile": "prompts.js"
+    }
+  ]
+}
+
