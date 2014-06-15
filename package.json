@@ -33,6 +33,7 @@
   "dependencies": {
     "adm-zip": "^0.4.4",
     "async": "^0.9.0",
+    "blessed": "0.0.35",
     "chalk": "^0.4.0",
     "commander": "^2.2.0",
     "event-stream": "^3.1.5",
