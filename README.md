@@ -1,38 +1,62 @@
 scaffoldery
 ===========
 
-Work in progress - A scaffolding framework inspired by rails and yeoman.
+Work in progress - A scaffolding framework inspired by rails, yeoman and component.
 
-#Why
+## Why
 It should be super simple to create templates to automate your own workflow. You should be able to create project specific cutsomizations.
 
-Simply install it:
-`npm install scaffoldery --save` 
 
-#Usage
-Run `scaffoldery init` to have it create a `scaffoldery_templates` folder (with an example template).
-Create your own templates inside this folder with the folder name being the template name.
+## Installation
 
-Run `scaffoldery generate <template-name>` to have it generate something based on a template.
+`npm install -g scaffoldery`
 
-#How do I create a template?
-TODO
-`scaffoldery create <template-name>` will create a new folder within your scaffoldery_templates folder. Within there will be a `prompts.js` file that exports all prompts that should be asked before scaffolding the template
-inside of the templates folder (`scaffoldery_templates/<template-name>/template/`).
 
-#How do I list all templates?
-`scaffoldery` will list all sub-directories in your `scaffoldery_templates` folder and let you pick one.
+## Usage
 
-# Long term goals:
-## How do I install a template?
-Run `scaffoldery install <template>` where template can be a bower package or a github repository. This will fetch a copy of the template into the `scaffoldery_templates` folder.
+### Create a template
+`scaffoldery init` : Initializes scaffoldery.json for a new template. You will be prompted for the name and the platform (platform could be javascript, angular, rails, etc.)
 
-## How do I register a template for everyone else to use?
-TODO
-Create your template as usual.
-Register the template as a bower package.
+`scaffoldery create` : Create a new generator on the initialized scaffold.
+* Generates `prompts.js`  that exports all prompts that should be asked before scaffolding the templates
+* Generates `templates` directory with a sample template
+* Updates scaffoldery.json
 
-========================
+
+### Install a template
+`scaffoldery install <github-repo>` will install a package from the given github repo. The repo needs to have scaffoldery.json initialized by `scaffoldery init`
+
+*Examples*:
+
+`scaffoldery install poojan/scaffold-angular-basic`
+`scaffoldery install poojan/scaffold-hello`
+`scaffoldery install poojan/scaffold-gen`
+
+### List installed templates
+`scaffoldery ls` lists all installed templates
+`scaffoldery ls <platform>` lists all installed templates for the given platform
+`scaffoldery ls <platform> <generator>` lists all installed templates for the given platform and generator
+
+### Preview a scaffold
+`scaffoldery preview <platform> <generator>` previews the templates for the given platform and generator
+
+*Examples*:
+
+`scaffoldery preview angular basic`
+`scaffoldery preview javascript hello`
+
+### Generate a scaffold based on the template
+`scaffoldery generate <platform> <generator>` generates the templates for the given platform and generator
+
+*Examples*:
+
+`scaffoldery generate angular basic`
+`scaffoldery generate javascript hello`
+
+
+
+
+## License
 
 The MIT License (MIT)
 
