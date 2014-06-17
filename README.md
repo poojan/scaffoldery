@@ -15,6 +15,7 @@ It should be super simple to create templates to automate your own workflow. You
 ## Usage
 
 ### Create a template
+
 `scaffoldery init` : Initializes scaffoldery.json for a new template. You will be prompted for the name and the platform (platform could be javascript, angular, rails, etc.)
 
 `scaffoldery create` : Create a new generator on the initialized scaffold.
@@ -24,33 +25,46 @@ It should be super simple to create templates to automate your own workflow. You
 
 
 ### Install a template
+
 `scaffoldery install <github-repo>` will install a package from the given github repo. The repo needs to have scaffoldery.json initialized by `scaffoldery init`
 
 *Examples*:
 
 `scaffoldery install poojan/scaffold-angular-basic`
+
 `scaffoldery install poojan/scaffold-hello`
+
 `scaffoldery install poojan/scaffold-gen`
 
+
 ### List installed templates
+
 `scaffoldery ls` lists all installed templates
+
 `scaffoldery ls <platform>` lists all installed templates for the given platform
+
 `scaffoldery ls <platform> <generator>` lists all installed templates for the given platform and generator
 
+
 ### Preview a scaffold
+
 `scaffoldery preview <platform> <generator>` previews the templates for the given platform and generator
 
 *Examples*:
 
 `scaffoldery preview angular basic`
+
 `scaffoldery preview javascript hello`
 
+
 ### Generate a scaffold based on the template
+
 `scaffoldery generate <platform> <generator>` generates the templates for the given platform and generator
 
 *Examples*:
 
 `scaffoldery generate angular basic`
+
 `scaffoldery generate javascript hello`
 
 
