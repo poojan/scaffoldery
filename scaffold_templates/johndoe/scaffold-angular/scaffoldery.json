@@ -1,0 +1,22 @@
+{
+  "package": "johndoe/scaffold-angular",
+  "platform": "angular",
+  "generators": [
+    {
+      "name": "directive",
+      "template": "directive.js",
+      "prompts": [
+        {
+          "message": "Enter module name:",
+          "name": "module",
+          "type": "input"
+        },
+        {
+          "message": "Enter directive name:",
+          "name": "name",
+          "type": "input"
+        }
+      ]
+    }
+  ]
+}

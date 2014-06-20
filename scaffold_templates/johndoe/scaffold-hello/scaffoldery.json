@@ -1,0 +1,17 @@
+{
+  "package": "johndoe/scaffold-hello",
+  "platform": "javascript",
+  "generators": [
+    {
+      "name": "hello",
+      "template": "hello.js",
+      "prompts": [
+        {
+          "message": "Who do you want to greet?",
+          "name": "name",
+          "type": "input"
+        }
+      ]
+    }
+  ]
+}
