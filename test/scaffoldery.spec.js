@@ -10,7 +10,6 @@ describe('scaffoldery', function () {
   it('should output help', function (done) {
     exec('bin/scaffoldery', function (err, stdout) {
       if (err) return done(err);
-      (2).should.equal(2);
       stdout.should.containEql('scaffoldery <command> [options]');
       stdout.should.containEql('--help');
       stdout.should.containEql('init');
