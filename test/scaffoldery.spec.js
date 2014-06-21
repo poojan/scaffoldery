@@ -1,10 +1,9 @@
 'use strict';
 
-var exec = require('child_process').exec;
-var path = require('path');
-var fs = require('fs');
-var should = require('should');
-
+var exec = require('child_process').exec,
+  path = require('path'),
+  fs = require('fs'),
+  should = require('should');
 
 describe('scaffoldery', function () {
   it('should output help', function (done) {

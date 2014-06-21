@@ -1,5 +1,5 @@
 angular.module('{{module}}', [])
-  .controller('{{name}}', ['$scope', function($scope) {
+  .controller('{{name}}', ['$scope', function ($scope) {
     // TODO
-  }])
+  }]);
 
