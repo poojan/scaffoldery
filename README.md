@@ -1,7 +1,6 @@
 scaffoldery
 ===========
-
-Work in progress - A scaffolding framework inspired by rails, yeoman and component.
+A scaffolding framework inspired by rails, yeoman and component.
 
 ## Why
 It should be super simple to create templates to automate your own workflow. You should be able to create project specific cutsomizations.
@@ -21,7 +20,7 @@ It should be super simple to create templates to automate your own workflow. You
 * Generates `templates` directory with a sample template
 * Updates scaffoldery.json
 
-### Generate a scaffold based on the template
+### Scaffold using a template
 
 `scaffoldery generate <platform> <generator>` generates the templates for the given platform and generator
 
