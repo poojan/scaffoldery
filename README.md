@@ -16,9 +16,7 @@ It should be super simple to create templates to automate your own workflow. You
 
 ### Create a template
 
-`scaffoldery init` : Initializes scaffoldery.json for a new template. You will be prompted for the name and the platform (platform could be javascript, angular, rails, etc.)
-
-`scaffoldery create` : Create a new generator on the initialized scaffold.
+`scaffoldery create` : Create a new template
 * Generates `prompts.js`  that exports all prompts that should be asked before scaffolding the templates
 * Generates `templates` directory with a sample template
 * Updates scaffoldery.json
