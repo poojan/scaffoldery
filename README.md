@@ -21,6 +21,16 @@ It should be super simple to create templates to automate your own workflow. You
 * Generates `templates` directory with a sample template
 * Updates scaffoldery.json
 
+### Generate a scaffold based on the template
+
+`scaffoldery generate <platform> <generator>` generates the templates for the given platform and generator
+
+*Examples*:
+
+`scaffoldery generate angular basic`
+
+`scaffoldery generate javascript hello`
+
 
 ### Install a template
 
@@ -53,19 +63,6 @@ It should be super simple to create templates to automate your own workflow. You
 `scaffoldery preview angular basic`
 
 `scaffoldery preview javascript hello`
-
-
-### Generate a scaffold based on the template
-
-`scaffoldery generate <platform> <generator>` generates the templates for the given platform and generator
-
-*Examples*:
-
-`scaffoldery generate angular basic`
-
-`scaffoldery generate javascript hello`
-
-
 
 
 ## License
