@@ -1,7 +1,6 @@
 scaffoldery
 ===========
-
-Work in progress - A scaffolding framework inspired by rails, yeoman and component.
+A scaffolding framework inspired by rails, yeoman and component.
 
 ## Why
 It should be super simple to create templates to automate your own workflow. You should be able to create project specific cutsomizations.
@@ -16,12 +15,20 @@ It should be super simple to create templates to automate your own workflow. You
 
 ### Create a template
 
-`scaffoldery init` : Initializes scaffoldery.json for a new template. You will be prompted for the name and the platform (platform could be javascript, angular, rails, etc.)
-
-`scaffoldery create` : Create a new generator on the initialized scaffold.
+`scaffoldery create` : Create a new template
 * Generates `prompts.js`  that exports all prompts that should be asked before scaffolding the templates
 * Generates `templates` directory with a sample template
 * Updates scaffoldery.json
+
+### Scaffold using a template
+
+`scaffoldery generate <platform> <generator>` generates the templates for the given platform and generator
+
+*Examples*:
+
+`scaffoldery generate angular basic`
+
+`scaffoldery generate javascript hello`
 
 
 ### Install a template
@@ -55,19 +62,6 @@ It should be super simple to create templates to automate your own workflow. You
 `scaffoldery preview angular basic`
 
 `scaffoldery preview javascript hello`
-
-
-### Generate a scaffold based on the template
-
-`scaffoldery generate <platform> <generator>` generates the templates for the given platform and generator
-
-*Examples*:
-
-`scaffoldery generate angular basic`
-
-`scaffoldery generate javascript hello`
-
-
 
 
 ## License
